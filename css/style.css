@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    /* background: url("/images/bg.jpg") no-repeat center fixed; */
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+/* MENU BAR*/
+
+.menu {
+    position: fixed;
+    /* background:#192024; */
+    background: #252525;
+    height: 100%;
+    width: 25%;
+    padding-top: 10px;
+}
+
+.small-image img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+.menu ul {
+    margin: 40px 0;
+    padding: 0;
+    height: 100%;
+    border-top: 1px solid #393939;
+}
+
+.menu ul li {
+    list-style: none;   
+    text-align: center;
+    padding: 8px;
+    border-bottom: 0.1px solid #393939;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+
+.menu ul li:hover, .selected {
+    background: #353535;
+}
+
+/* Main body */
+
+.container {
+    /* display: table; */
+    /* margin: 100px auto; */
+    text-align: center;
+    float: right;
+    width: 75%;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin: 50px;
+}
+
+
+/* HOME PAGE */
+
+.main-flex {
+    display: flex;
+    margin: 80px;
+    text-align: left;
+}
+
+.main-flex > div {
+    width: 100%;
+    /* background: #202020; */
+    margin: 30px;
+}
+
+.main-flex h1{
+    margin: 0px;
+    font-size: 50px;
+}
+
+.main-flex h2 {
+    margin-top: 20px;
+    font-weight: normal; 
+}
+
+.main-flex h3 {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.txt-type {
+    height: 20px;
+}
+
+.main-flex p {
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+
+.main-flex img {
+    border-radius: 10px;
+}
+
+/* Journey */
+
+.main .school {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 50px; 
+    text-align: left;
+}
+
+.main .college {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+
+.main .uni {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+
+.main .intern {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+
+.main .now {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 40%;
+    height: 50px;
+    text-align: left;
+}
+
+.main p {
+    padding: 2px 0;
+}
+
+.main h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;   
+}
+
+/* Contact */
+
+.email p {
+    padding: 8px;
+}
+
+.phone p {
+    padding: 10px;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.icon p ,
+.icon i{
+    padding: 10px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.icon a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Blog */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blog .blog-flex {
+    /* background-color: #f1f1f1; */
+    width: auto;
+    height: 80px;
+    margin: 0 200px 50px 200px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+
+    /* Flexing the div */
+    display: flex;
+}
+
+
+.blog-image img{
+    height: 80px;
+}
+
+.blog-description{
+    margin-top: 0px;
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.blog-description > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.blog-description> p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+.blog-description>a:hover {
+    text-decoration: underline;
+}
+
+/* Project */
+
+.project {
+    display: flex;
+    justify-content: center;
+}
+
+.project .project-flex {
+      background-color: #e2f2f2;
+      width: 250px;
+      margin: 15px;
+      height: 350px;
+      text-align: center;
+      line-height: 16px;
+      font-size: 16px;
+      border: 1px solid #252525;
+      border-radius: 20px;
+}
+
+.project img {
+    margin-top: 20px;
+    height:150px;
+    width: 200px;
+    /* border-radius: 10px; */
+}
+
+.project p {
+    margin: 20px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project a {
+    margin: 20px;
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+/* Skills */
+
+.skills {
+    margin: 0 200px;
+}
+.skills ul {
+    text-align: left;
+    list-style: square;
+}
+
+.skills ul li {
+    padding: 10px;
+    font-size: 18px;
+}
